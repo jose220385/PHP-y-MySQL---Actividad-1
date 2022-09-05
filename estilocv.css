@@ -1,0 +1,124 @@
+html{
+    margin: none;
+}
+
+body {
+    background-color: #efefef;
+    font-family: "montserrat";
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #191949;
+    margin: none;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+#div1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+img {
+    transition: box-shadow 0.3s ease;
+    width: 35rem;
+    border-radius: 50px;
+}
+
+img:hover {
+    box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+
+#datos {
+    transition: all 0.5s ease;
+    width: 35rem;
+    height: 18rem;
+    border: black;
+    border-style: initial;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-left: 2rem;
+    background: #efefef;
+    background: linear-gradient(56deg, #efefef 30%, #62629d 80%);
+    background: -webkit-linear-gradient(56deg, #efefef 30%, #62629d 80%);
+    background: -moz-linear-gradient(56deg, #efefef 30%, #62629d 80%);
+}
+
+#datos h2 {
+    font-size: 2rem;
+}
+
+#datos ul {
+    font-size: 1.5rem;
+}
+
+#datos:hover {
+    box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
+    background: #efefef;
+    background: linear-gradient(226deg, #efefef 30%, #62629d 80%);
+    background: -webkit-linear-gradient(226deg, #efefef 30%, #62629d 80%);
+    background: -moz-linear-gradient(226deg, #efefef 30%, #62629d 80%);
+}
+
+#contenedor2 {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.formato {
+    transition: box-shadow 0.3s ease;
+    float: left;
+    width: 95%;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 1rem;
+    
+}
+
+.formato h2 {
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #191949;
+    background-size: auto;
+    color: white;
+}
+
+.formato:hover {
+    box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+    background-color: #dfdfff;
+}
+.formato 
+video {
+    width: 40%;
+}
+
+footer {
+    background-color: #191949;
+    margin: none;
+    padding: 2rem;
+    height: 5rem;
+}
+
+footer a {
+    color: white;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+#iconos{
+    float: right;
+    margin-right: 3rem;
+    padding-top: 0.5rem;
+}
+
